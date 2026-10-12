@@ -1,0 +1,7 @@
+read_verilog -sv rtl/aes.v rtl/aes_core.v rtl/aes_encipher_block.v rtl/aes_decipher_block.v rtl/aes_key_mem.v rtl/aes_sbox.v rtl/aes_inv_sbox.v
+hierarchy -top aes
+synth -top aes -flatten
+dfflibmap -liberty synth/sky130_fd_sc_hd__tt_025C_1v80.lib
+abc -liberty synth/sky130_fd_sc_hd__tt_025C_1v80.lib
+stat -liberty synth/sky130_fd_sc_hd__tt_025C_1v80.lib
+write_verilog -noattr synth-run/aes_synth.v

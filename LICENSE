@@ -1,0 +1,25 @@
+Creative Commons Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)
+
+Copyright (c) 2025 Kenneth Lei
+
+This work is licensed under the Creative Commons Attribution-NonCommercial 4.0
+International License. To view a copy of this license, visit
+https://creativecommons.org/licenses/by-nc/4.0/
+
+You are free to:
+  - Share — copy and redistribute the material in any medium or format
+  - Adapt — remix, transform, and build upon the material
+
+Under the following terms:
+  - Attribution — You must give appropriate credit, provide a link to the
+    license, and indicate if changes were made.
+  - NonCommercial — You may not use the material for commercial purposes.
+
+This license matches the terms of the CSAW AI Hardware Attack Challenge 2025.
+
+The underlying open-source hardware IPs retain their own copyrights and
+licenses:
+  - secworks/aes            (BSD-style)
+  - ZipCPU/wbuart32         (GPLv3; see each file header)
+  - lowRISC/OpenTitan       (Apache-2.0)
+Those licenses govern the original, unmodified portions of those designs.

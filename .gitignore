@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Simulation / synthesis byproducts (regenerable)
+*.out
+*.vvp
+*.vcd
+sim-run/
+sim-logs/
+synth-logs/
+**/synth-run/synth.log
+
+# Vendor standard-cell library (provided by the competition Docker / OSS-CAD;
+# referenced by the synth scripts at synth/sky130_fd_sc_hd__tt_025C_1v80.lib).
+*.lib
+
+# Large vendor docs from the upstream IP checkouts (not part of our submission).
+*.pdf
+*.eps

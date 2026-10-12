@@ -1,0 +1,17 @@
+﻿yosys.exe : Warning: Replacing memory \key_reg with list of registers. See rtl/aes.v:191
+At line:1 char:467
++ ... | Out-Null; & 'C:\oss-cad-suite\bin\yosys.exe' -q synth/synth_trojan. ...
++                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : NotSpecified: (Warning: Replac...e rtl/aes.v:191:String) [], RemoteException
+    + FullyQualifiedErrorId : NativeCommandError
+ 
+Warning: Replacing memory \block_reg with list of registers. See rtl/aes.v:188
+Warning: Replacing memory \key_mem with list of registers. See rtl/aes_key_mem.v:140
+C:\Users\kenne\AppData\Local\Temp\\yosys-abc-xgjQKF\output.blif - The process cannot access the file because it is 
+being used by another process.
+C:\Users\kenne\AppData\Local\Temp\\yosys-abc-2rVkRJ\output.blif - The process cannot access the file because it is 
+being used by another process.
+C:\Users\kenne\AppData\Local\Temp\\yosys-abc-QAAoGD\output.blif - The process cannot access the file because it is 
+being used by another process.
+Warning: ABC: merged SCL conversion failed, falling back to liberty format
+Warning: ABC: Merged scl conversion failed, using liberty format

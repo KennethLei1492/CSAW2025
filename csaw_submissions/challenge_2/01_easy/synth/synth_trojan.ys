@@ -1,0 +1,9 @@
+# Run from the challenge directory:  yosys -q synth/synth_trojan.ys
+read_verilog rtl/rxuart.v rtl/txuart.v rtl/skidbuffer.v rtl/ufifo.v rtl/wbuart.v
+hierarchy -check -top wbuart
+synth -top wbuart -flatten
+dfflibmap -liberty synth/sky130_fd_sc_hd__tt_025C_1v80.lib
+abc -liberty synth/sky130_fd_sc_hd__tt_025C_1v80.lib
+opt_clean
+stat -liberty synth/sky130_fd_sc_hd__tt_025C_1v80.lib
+write_verilog -noattr synth-run/wbuart_synth.v
